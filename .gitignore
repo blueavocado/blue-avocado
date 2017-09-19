@@ -1,0 +1,5 @@
+/node_modules
+/.idea
+/skin/bower_components
+/skin/node_modules
+/skin/.sass-cache

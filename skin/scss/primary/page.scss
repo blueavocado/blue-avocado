@@ -1,0 +1,329 @@
+$primary-b: #114663;
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: white;
+    font-family: Vollkorn;
+    background: $primary-b;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Vollkorn";
+    src: url('../fonts/Vollkorn.Regular.eot') format('embedded-opentype'),
+    url('../fonts/Vollkorn.Regular.otf') format('opentype');
+}
+
+.btn {
+    color: $primary-b;
+    background: white;
+    border: 2px solid white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    min-width: 90px;
+    padding: 8px 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    transition: 0.25s ease all;
+
+    &:hover, &:active, &:focus {
+        color: white;
+        background: $primary-b;
+        border: 2px solid white;
+    }
+}
+
+.particles-js-canvas-el {
+    height: 300px!important;
+}
+
+.blue-avocado-body {
+    .blue-avocado-top {
+        padding-bottom: 20px;
+        background: black;
+
+        .wrapper {
+            width: 100%;
+            max-width: 960px;
+            margin: 20px auto 0;
+            display: block;
+
+            .block-left {
+
+            }
+
+            .block-right {
+                text-align: right;
+            }
+        }
+    }
+
+    .section-bg {
+        background: black;
+        height: auto;
+        margin: 0 auto;
+
+        .blue-avocado-technologies {
+            width: 100%;
+            margin-bottom: 30px;
+
+            .wrapper-head {
+                width: 100%;
+                max-width: 960px;
+                margin: 0 auto;
+                display: block;
+                text-align: center;
+
+                .block {
+
+                    h2 {
+                        font-size: 32px;
+                        text-transform: capitalize;
+                        font-style: italic;
+                        margin: 30px auto 15px;
+                        color: $primary-b;
+                    }
+
+                    span {
+                        width: 200px;
+                        border-bottom: 4px dotted $primary-b;
+                        display: block;
+                        margin: 0 auto 10px;
+                    }
+                }
+            }
+
+            .wrapper-body {
+                width: 100%;
+                max-width: 960px;
+                margin: 20px auto;
+                display: block;
+
+                .block {
+
+                    img {
+                        width: 290px;
+                        margin: auto;
+                    }
+
+                    .html {
+                        position: relative;
+                        top: -28px;
+                    }
+
+                    .git {
+                        width: 260px;
+                    }
+
+                    .gulp {
+                        width: 200px;
+                    }
+                }
+            }
+        }
+    }
+
+    .blue-avocado-about-me {
+        width: 100%;
+        max-width: 960px;
+        display: block;
+
+        .wrapper {
+
+            .block-left {
+                h2 {
+                    font-size: 32px;
+                    text-transform: capitalize;
+                    color: white;
+                }
+
+                p {
+                    font-size: 18px;
+                }
+            }
+
+            .block-right {
+                img {
+                    border: 5px dashed white;
+                    border-radius: 10%;
+                }
+            }
+        }
+    }
+
+    .blue-avocado-specs {
+        margin-top: 30px;
+        text-align: center;
+        background: black;
+        padding: 30px 0;
+
+        .wrapper-head {
+            width: 100%;
+            max-width: 960px;
+            display: block;
+            margin: 0 auto;
+
+            h2 {
+                font-size: 32px;
+                color: $primary-b;
+                font-style: italic;
+                margin-top: 0;
+                margin-bottom: 15px;
+            }
+
+            span {
+                width: 200px;
+                border-bottom: 4px dotted $primary-b;
+                display: block;
+                margin: 0 auto 10px;
+            }
+        }
+
+        .wrapper-body {
+            width: 100%;
+            max-width: 960px;
+            display: block;
+            margin: 0 auto;
+
+            h4 {
+                font-size: 14px;
+            }
+
+            .wrap {
+                min-height: 65px;
+            }
+
+            .block-mobile {
+                .fa {
+                    font-size: 54px;
+                    position: relative;
+                    top: 9px;
+                }
+            }
+
+            .block-user {
+                .fa {
+                    font-size: 56px;
+                    position: relative;
+                    top: 3px;
+                }
+            }
+
+            .block-browser {
+                .fa {
+                    font-size: 39px;
+                    position: relative;
+                    top: 17px;
+                }
+            }
+
+            .block-test {
+                .fa {
+                    font-size: 50px;
+                    position: relative;
+                    top: 10px;
+                }
+            }
+
+            .block-maintain {
+                .fa {
+                    font-size: 50px;
+                    position: relative;
+                    top: 5px;
+                }
+            }
+
+            .block-simple {
+                .fa {
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+
+    .blue-avocado-my-goal {
+        position: absolute;
+        margin: 30px auto 0;
+        text-align: center;
+        width: 100%;
+
+        .wrapper {
+            width: 100%;
+            max-width: 960px;
+            background: rgba(0,0,0,0.8);
+            padding: 30px;
+            margin: 0 auto;
+            border-radius: 4px;
+            display: block;
+            text-align: center;
+
+            .block {
+
+                h2 {
+                    font-size: 32px;
+                    color: $primary-b;
+                    font-style: italic;
+                    margin-top: 0;
+                    margin-bottom: 15px;
+                }
+
+                span {
+                    width: 100px;
+                    border-bottom: 4px dotted $primary-b;
+                    display: block;
+                    margin: 0 auto 10px;
+                }
+
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        background: black;
+
+        .wrapper {
+            width: 100%;
+            max-width: 990px;
+            background: black;
+            margin: 0 auto;
+            display: block;
+
+            .block-left {
+
+            }
+
+            .block-right {
+                position: relative;
+                top: 15px;
+                text-align: right;
+
+                i {
+                    font-size: 35px;
+                    margin-right: 20px;
+
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+
+            }
+        }
+
+
+    }
+}
+
+
+  
